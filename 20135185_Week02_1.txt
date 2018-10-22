@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>이미지와 목록</title>
+        <style>
+            body{
+                /* 배경색 설정 */
+                background : #CAE7B9;
+                /* 글씨색 설정 */
+                color : #7E7F9A;
+            }
+        </style>
+    </head>
+    <body>
+        <!--2018/09/18 창의코딩웹-->
+        <h1 style = "background-color:#F3DE8A">이미지와 목록</h1>
+        <h3>안내전화</h3>
+        <ul>
+            <li> 일반전화 : 033-248-1000 
+                <ol>
+                    <li>교무부 : 033-248-1001</li>
+                    <li>인사부 : 033-248-1002</li>
+                    <li>기획부 : 033-248-1003</li>
+                </ol>
+            </li>
+            <li> 휴대전화 : 010-248-1000 </li>
+        </ul>
+        <hr>
+        <h3>뉴욕 여행 1일차</h3>
+        <ol>
+            <li> 메트로 폴리탄 뮤지엄 </li>
+            <li> 센트럴 파크 </li>
+            <li> 뉴욕 공립 도서관 </li>
+        </ol>
+        <hr>
+        <h3>제주도여행</h3>
+        <dl>
+            <dt> 올레 1코스 </dt>
+                <dd> 시흥초교~광치기해변 </dd>
+                <dd> 14.6km, 난이도 중 </dd>
+            <dt> 올레 2코스 </dt>
+                <dd> 광치기해변~온평포구</dd>
+        </dl>
+        <hr>
+        <figure>
+            <img src = "C:\Users\user\Desktop\img\Hallym.png" alt = "한림대학교 소개 이미지" width = "30%">
+            <figcaption>▲ 한림대학교 로고</figcaption>
+        </figure>
+        
+    </body>
+</html>

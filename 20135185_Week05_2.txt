@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>div 배열</title>
+    <style>
+        body {
+            margin: 0px;
+            /*top bottom right left 여백*/
+            font-size: 16px;
+            background-color: lightgray;
+        }
+        
+        ul {
+            margin-top:0px;
+            list-style: none;
+        }
+        
+        li {
+            margin-right: 10px;
+            display: inline;
+        }
+        
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        
+        a:hover {
+            color: white;
+            background-color: black;
+        }
+        
+        .strong {
+            font-weight: bolder;
+            font-family: 궁서;
+            font-size: 20px;
+            text-decoration: underline;
+            color: violet;
+        }
+        
+        #menu {
+            float: right;
+        }
+        
+        #wrap {
+            margin: 10px;
+        }
+        
+        #title {
+            background-color: lavender;
+            width: 100%;
+            height: 100px;
+        }
+        
+        #left {
+            float: left;
+            width: 15%;
+            height: 250px;
+            background-color: lavender;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 1%;
+        }
+        
+        #middle {
+            float: left;
+            width: 59%;
+            height: 500px;
+            background-color: lavender;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        
+        #right {
+            float: right;
+            width: 20%;
+            height: 500px;
+            background-color: lavender;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 1%;
+        }
+        
+        #bottom {
+            background-color: lavender;
+            width: 100%;
+            height: 50px;
+            clear: both;
+        }
+        
+        .section {
+            height: 200px;
+            background-color: lavender;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 5%;
+            margin-right: 5%;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id=wrap>
+
+        <div id=title>
+
+            header <span class=strong>영역</span>입니다.
+
+            <div id=menu>
+                <ul>
+                    <li><a href=#>메뉴1</a></li>
+                    <li><a href=#>메뉴2</a></li>
+                    <li><a href=#>메뉴3</a></li>
+                    <li><a href=#>메뉴4</a></li>
+                    <li><a href=#>메뉴5</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id=left>
+            nav <span class=strong>영역</span>입니다.
+
+        </div>
+        <div id=middle>
+            article <span class=strong>영역</span>입니다.
+            <div class=section>
+                <center>section1 <span class=strong>영역</span>입니다.</center>
+            </div>
+            <div class=section>
+                <center>section2 <span class=strong>영역</span>입니다.</center>
+            </div>
+        </div>
+        <div id=right>
+            <center>aside <span class=strong>영역</span>입니다.</center>
+        </div>
+        <div id=bottom>
+            <center>footer <span class=strong>영역</span>입니다.</center>
+        </div>
+    </div>
+</body>
+
+</html>

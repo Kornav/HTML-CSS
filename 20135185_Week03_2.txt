@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Director's Note</title>
+        <style>
+        a{
+            text-decoration: none;
+            color : blue;
+            font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+            color : red;
+            /*
+                마우스 -> 밑줄
+            */
+        }
+        </style>
+    </head>
+    <body>
+       <h1 id="start">Director's Note</h1>
+
+        <h2>드니 빌뇌브 (Denis Villeneuve)</h2>
+        <audio autoplay loop controls>
+            <source src="C:/Users/user/Desktop/web03_e/music/bladerunner_ost.mp3" tpye="audio/mp3">
+            브라우저에서 오디오 파일을 지원하지 않습니다.
+        </audio>
+        <br>
+        <img src = "C:/Users/user/Desktop/web03_e/img/p1.jpg" alt = "블레이드러너포스터" width = "15%">
+        <img src = "C:/Users/user/Desktop/web03_e/img/p2.jpg" alt = "컨텍트포스터" width = "15%">
+        <img src = "C:/Users/user/Desktop/web03_e/img/p3.jpg" alt = "시카리오포스터" width = "15%">
+        <img src = "C:/Users/user/Desktop/web03_e/img/p4.jpg" alt = "에너미포스터" width = "15%">
+        <img src = "C:/Users/user/Desktop/web03_e/img/p5.jpg" alt = "프리즈러너포스터" width = "15%">
+        <img src = "C:/Users/user/Desktop/web03_e/img/p6.jpg" alt = "그을린사랑포스터" width = "15%">
+        <br>
+        목차  <a href=#summary>개요</a>  <a href=#propensity>작품성향</a>  <a href=#filmography>필모그래피</a> <a href=#awards>수상내역</a> <a href=#other>기타사항</a>  <a href=#out>외부고리</a>
+        <p>
+            <h2 id="summary">1. 개요</h2>
+            <hr>
+            캐나다 출신의 영화감독. 1967년 생이며 퀘벡 캐나다인이다. 그래서 초기작들은 프랑스어 영화들이다.
+            1998년 캐나다에서 <지구에서의 8월 32일>이라는 영화로 데뷔했다. 데뷔하자마자 칸 영화제 주목할 만한 시선에 초청받는 등 주목을 받았으나 2000년 <마엘스트롬> 이후로 한동안 영화를 찍지 못했다.
+            9년이 지나 <a href = "https://movie.naver.com/movie/search/result.nhn?query=%ED%8F%B4%EB%A6%AC%ED%85%8C%ED%81%AC%EB%8B%89&section=all&ie=utf8"><폴리테크닉></a>으로 돌아온 그는 후속작 <a href = "https://movie.naver.com/movie/search/result.nhn?query=%B1%D7%C0%BB%B8%B0%BB%E7%B6%FB&section=all"><그을린 사랑></a>으로 국내외에서 주목을 받고, 휴 잭맨, 제이크 질렌할 주연의 <a href = "https://movie.naver.com/movie/search/result.nhn?query=%C7%C1%B8%AE%C1%EE%B3%CA%BD%BA&section=all"><프리즈너스></a>로 할리우드에 입성한다. 그 다음 작품인 <에너미>는 관객들에게 난해하다는 평가를 받고, 비평가들의 평가도 크게 엇갈려 흥행은 실패했다.
+            2015년 <시카리오: 암살자의 도시>를 연출한다. <시카리오>는 칸 영화제 경쟁 부문에 초청되는 쾌거를 이루고, 개봉 후 관객과 비평가들에게 극찬을 받았다. 약 3천만 달러의 제작비를 들여 약 8천 6백만 달러의 수입을 거둬 흥행에도 성공하고, 속편도 제작된다고 한다.
+            2016년 영화 <컨택트>와 2017년에 개봉할 <블레이드 러너 2049>를 연출해, 블록버스터 영화에 입문하였다. 심지어 다음 작품으로 듄을 영화화할 것이라 한다! 
+        </p>
+
+        <p>
+            <h2 id="propensity">2. 작품성향</h2>
+            <hr>
+            화면을 조형적으로 구성하여 미장센에 상당히 공을 들이는 편이며, 카메라워크는 대체로 정적이거나 느릿하다. 음악은 <a href = "https://movie.naver.com/movie/search/result.nhn?query=%BF%E4%C7%D1+%BF%E4%C7%D1%BD%BC&section=all">요한 요한손</a>과 주로 작업하는데, 저음역대의 묵직한 느낌의 음악을 주로 사용하여 긴장감과 불안감을 조성한다.
+            다른 스릴러 감독들인 <a href = "https://movie.naver.com/movie/search/result.nhn?query=%EB%8C%80%EB%8B%88+%EB%B3%B4%EC%9D%BC&section=all&ie=utf8">대니 보일</a>이나 <a href = "https://movie.naver.com/movie/search/result.nhn?query=%B5%A5%C0%CC%BA%F1%B5%E5+%C7%C9%C3%B3&section=all">데이비드 핀처</a>같은 빠르고 속도감있는 스타일과는 반대되는 성향이라 하겠다.
+            빌뇌브의 작품은 대체로 몰랐던 정보를 알아가는 것이 중요한 과정으로 등장한다. 스릴러 작품을 주로 연출했지만, <그을린 사랑>이나 <컨택트>는 드라마 요소가 짙다. 
+            두 번 같이 작업한 <a href = "https://movie.naver.com/movie/search/result.nhn?query=%C1%A6%C0%CC%C5%A9+%C1%FA%B7%BB%C7%D2&section=all">제이크 질렌할</a>을 제외하면, 매 편마다 새로운 주연배우와 작업하고 있다.
+        </p>
+
+        <p>
+            <h2 id="filmography">3. 필모그래피</h2>
+            <hr>
+            <ol>
+                <li>1996  코스모스  Cosmos  단편</li>
+                <li>1998  지구에서의 8월 32일  August 32nd on Earth  </li>
+                <li>2000  마엘스트롬  Maelstrom</li>
+                <li>2008  <a href = "https://movie.naver.com/movie/search/result.nhn?query=%B4%D9%C0%BD%C3%FE&section=all">다음 층</a>  Next Floor  단편</li>
+                <li>2009  <a href = "https://movie.naver.com/movie/search/result.nhn?query=%C6%FA%B8%AE%C5%D7%C5%A9%B4%D0&section=all">폴리테크닉</a>  Polytechnique</li>
+                <li>2010  <a href = "https://movie.naver.com/movie/search/result.nhn?query=%B1%D7%C0%BB%B8%B0%BB%E7%B6%FB&section=all">그을린 사랑</a>  Incendies</li>
+                <li>2013  <a href = "https://movie.naver.com/movie/search/result.nhn?query=%C7%C1%B8%AE%C1%EE%B3%CA%BD%BA&section=all">프리즈너스</a>  Prisoners</li>
+                <li>2013  <a href = "https://movie.naver.com/movie/bi/mi/basic.nhn?code=102291">에너미</a>  Enemy</li>
+                <li>2015  <a href = "https://movie.naver.com/movie/bi/mi/basic.nhn?code=125466">시카리오: 암살자의 도시</a>  Sicario</li>
+                <li>2016  <a href = "https://movie.naver.com/movie/search/result.nhn?query=%C4%C1%C5%C3%C6%AE&section=all">컨택트</a>  Arrival</li>
+                <li>2017  블레이드 러너 2049  Blade Runner 2049</li>
+            </ol>
+        </p>
+        
+        <p>
+            <h2 id="awards">4. 수상내역</h2>
+            <hr>
+            <ul>
+                <li>2016 더블린비평가협회상 감독상</li>
+                <li>2010 제29회 벤쿠버국제영화제 캐나다 장편상</li>
+                <li>2010 제26회 바르샤바 국제영화제 바르샤바 그랑프리</li>
+                <li>2010 제19회 플리커페스트 국제 단편영화제 단편영화 디지털기술상</li>
+                <li>2009 제35회 시애틀국제영화제 단편영화심사위원상 드라마특별언급</li>
+                <li>2008 제41회 시체스 국제영화제 오피셜 판타스틱 최우수단편상</li>
+                <li>2000 제24회 몬트리올 국제영화제 캐나다 인기영화상</li>
+            </ul>
+        </p>
+
+        <p>
+             <h2 id="other">5. 기타사항</h2>
+                <hr>
+                이동진 평론가는 앞으로 미국에서 영화를 만드는 감독 중에 가장 기대되는 인물이라고 평했다. 
+                <프리즈너스>부터 <시카리오: 암살자의 도시>까지 로저 디킨스 촬영감독과 일했고, 컨택트는 브래드퍼드 영이 촬영감독을 맡았다. 
+                현재 할리우드로부터 감독의 권한을 얻은 연출가 중 하나로, <컨택트>는 제작사의 간섭이 없었으며, 파라마운트 픽처스가 <시카리오>를 배급하지 못해 많이 화났다고 한다.
+                2017년 89회 아카데미 시상식에서 컨택트로 감독상 후보에 올랐으나 아쉽게도 수상에는 실패했다.
+        </p>
+
+        <p>
+            <h2 id="out">6. 외부 고리</h2>
+            <img src = "C:/Users/user/Desktop/web03_e/img/bestdirectors.png" alt = "최고감독그림" usemap=#ph >
+            <map name=ph>
+                <area shape ="rect" alt="박찬욱" href="https://movie.naver.com/movie/bi/pi/basic.nhn?code=9057" target="_blank" coords="0,0 125,200">
+                <area shape ="rect" alt="봉준호" href="https://movie.naver.com/movie/bi/pi/basic.nhn?code=9479" target="_blank" coords="140,0 265,200">
+                <area shape ="rect" alt="류승완" href="https://movie.naver.com/movie/bi/pi/basic.nhn?code=581" target="_blank" coords="265,0 400,200">
+            </map>
+        </p>
+        <a href = "#start">처음으로</a>
+    </body>
+</html>

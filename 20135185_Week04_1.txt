@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Video / Table</title>
+        <style>
+            body{
+                background-color :lightcyan;
+            }
+            .algoritm{
+                background-color :lightsalmon;
+            }
+            .blank{
+                background-color :lavender;
+                color:olive;
+            }
+        </style>
+    </head>
+    <body>
+            <h1>video 넣기</h1>
+            <!--video 태그 경로 자동재생여부 반복재생여부(횟수) 자동로드여부 제어기표시여부 대기 상태 중 표시할 이미지경로-->
+            <video autoplay controls loop width = "70%">
+                <!--source 태그 경로 mime형식 재생할 비디오 파일의 미디어 쿼리 지정-->
+                <source src="C:/Users/user/Desktop/web04/FantasticBeastsTCG.mp4" type="video/mp4">
+                <!--source src="" type=""-->
+                <!--source src="" type=""-->
+                브라우저에서 동영상 파일을 지원하지 않습니다.
+            </video>
+            <video controls loop poster="C:/Users/user/Desktop/web04/CaptainMarvel.jpg" width = "70%">
+                <source src="C:/Users/user/Desktop/web04/CaptainMarvel.mp4" type="video/mp4">
+                브라우저에서 동영상 파일을 지원하지 않습니다.
+            </video>
+            <hr>
+            <h1>table 만들기</h1>
+            <!--table 태그 전체바깥여백 셀안쪽여백 셀바깥여백-->
+            <table border=10 cellpadding=5 cellspacing=5 width=500>
+                <tr>
+                    <!--th 굵게, 가운데맞춤(기본)-->
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>ㄱ</td>
+                    <td>ㄴ</td>
+                    <td>ㄷ</td>
+                </tr>
+            </table>
+            <hr>
+            <table border=1 width=500>
+                <tr>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                </tr>
+                <tr>
+                    <!-- rowspan:행병합 colspan:열병합-->
+                    <td rowspan=2>1</td>
+                    <td colspan=2>2</td>
+                </tr>
+                <tr>
+                    <td>ㄴ</td>
+                    <td>ㄷ</td>
+                </tr>
+            </table>
+            <hr>
+            <table border=1 cellspacing=0 width=50%>
+                <caption>My Schedule</caption>
+                 <tr>
+                    <td></td>
+                    <th>월</th>
+                    <th>수</th>
+                    <th>금</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <!--id는 한번 쓸 수 있고, class는 여러번 쓸 수 있다.-->
+                    <td rowspan="6" class="blank">공강</td>
+                    <td rowspan="9" class="blank">공강</td>
+                    <td rowspan="4" class="blank">공강</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <th>4</th>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td rowspan="2" class = "algoritm">알고<br>리즘</td>
+                </tr>
+                <tr>
+                    <th>6</th>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <td rowspan="2" class = "algoritm">알고<br>리즘</td>
+                    <td rowspan="3" class="blank">공강</td>
+                </tr>
+                <tr>
+                    <th>8</th>
+                </tr>
+                <tr>
+                    <th>9</th>
+                    <td class="blank">공강</td>                    
+                </tr>
+            </table>
+            <hr>
+            
+    </body>
+</html>

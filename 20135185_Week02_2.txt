@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- 2018/09/20 -->
+        <title>웹의 진화</title>
+        <style>
+            body{
+                /* 배경색 설정 */
+                background : #CAE7B9;
+                /* 글씨색 설정 */
+                color : #7E7F9A;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>웹의 진화</h1>
+        <img src = "C:/Users/user/Desktop/img/Image.jpg" alt = "그래프" width = "80%"><br>
+        <div style="background-color:lightsalmon" >인터넷과 웹|WEB 1.0|WEB 1.0|WEB 1.0|WEB 1.0|HTML5와 CSS3</div>
+        <hr>
+        <dl>
+            <dt><strong>인터넷(Internet)</strong></dt>
+                <dd>네트워크의 한 방식의 의미하는 용어
+            <dt><strong>웹(Web)</strong></dt>
+                <dd>인터넷을 사용하기위한 여러가지 기술 중 하나를 가리키는 용어</dd>
+                <dd>문서에 하이퍼 링크 개념을 도입</dd>
+                <dd>비선형적 구조의 정보전달 체계</dd>
+        </dl>
+        <hr>
+        <ol>
+            <li><strong>웹1.0 시대</strong>
+                <ul>
+                    <li>1990~2000</li>
+                    <li>The Web</li>
+                </ul>
+            </li>
+            <li><strong>웹2.0 시대</strong>
+                <ul>
+                    <li>2000~2010</li>
+                    <li>The Social Web</li>
+                </ul>
+            </li>
+            <li><strong>웹3.0 시대</strong>
+                <ul>
+                    <li>2005~2020</li>
+                    <li>The Semantic Web</li>
+                </ul>
+            </li>
+            <li><strong>웹4.0 시대</Strong>
+                <ul>
+                    <li>2000~2010</li>
+                    <li>The Ubiquitous Web</li>
+                </ul>
+            </li>
+        </ol>
+        <hr>
+        <ul>
+            <li><strong>HTML</strong>
+                <ol>
+                    <li>HyperText Markup Language</li>
+                    <li>HTML 태그를 사용할 때 입력된 내용의 의미가 무엇인지 표현할 수 있도록 작성</li>
+                </ol>
+            </li>
+            <li><strong>CSS3</strong>
+                <ol>
+                    <li>Cascading Style Sheet</li>
+                    <li>화면에 나타나는 모습, 디자인, 시각적인 정보는 모두 CSS를 사용하여 표현</li>
+                </ol>
+            </li>
+            <li><a href = "http://www.w3.org" target = "_blank">W3C</a>의 웹 표준으로 권고</li>
+        </ul>
+        <hr>
+        Copyright &copy;<sup>2018</sup> <ins>All rights reserved.</ins>
+    </body>
+</html>

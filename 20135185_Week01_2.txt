@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>20135185 황석진 Online Profile</title>
+        
+    </head>
+    <body>
+        <!-- 2018/09/13 창의코딩 웹연습 -->
+        <img src = "img/Icon.gif" alt="난 누구" width=300>
+        <!-- alt : 그림대신 설명을 보여줄 수 있다. 설명을 읽어줄 수 있다. -->
+        <h1 style = "background-color:orange">Online Profile</h1>
+        <p>
+            한림대학교 컴퓨터공학과 4학년 황석진
+            <br>
+            <a href = "mailto:seok4259@gmail.com">seok4259@gmail.com</a>
+        <p>        
+        <p>
+            <a href="http://twitter.com" target = "_blank"><img src = "img/TwitterIcon.png" alt = "Facebook Icon" width = 100 height = 100></a>
+            <a href="http://www.facebook.com" target = "_blank"><img src = "img/FacebookIcon.png" alt = "Facebook Icon" width = 100 height = 100></a>
+            <a href="http://www.instagram.com" target = "_blank"><img src = "img/InstaIcon.png" alt = "Instagram Icon" width = 100 height=100></a>
+        </p>
+        <hr>
+        <p>
+            <h2>Who am I?</h2>
+            나는 이런 사람입니다.<br>
+            나는 이런 사람입니다.<br>
+            ....
+        </p>
+        <hr>
+        <p>
+            <h2>Skills</h2>
+            Languages : HTML, CSs, JavaScript, C, Java<br>
+            Tools : Photoshop, Dreamweaver, After Effects<br>
+        </p>
+        <hr>
+        <p>
+            <h2>Hobby</h2>
+            <br>
+            취미1 : 취미1 설명<br>
+            취미2 : 취미2 설명....<br>
+        </p>
+        <hr>
+        <p>
+            <h2>Favorites</h2>
+            NADA : 설명<br>
+            공효진 : 설명....<br>
+        </p>
+        <p style = "background-color:orange">
+        &nbsp;&nbsp;&nbsp;&nbsp; <small><strong>창의코딩 웹 - tag 연습<sup>2</sup>★★★</strong></small>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>div와 span</title>
+    <style>
+        body{
+            margin:0px; /*top bottom right left 여백*/
+        }
+        #left{
+            width:50%;
+            float:left;
+        }
+        #right{
+            width:50%;
+            float:right;
+        }
+        #addr{
+            /*공간 해제*/
+            clear:both;
+        }
+        .title {
+            background-color: navy;
+            color: white;
+            /*가운데정렬*/
+            text-align: center;
+            /*가로길이*/
+            /*width: 50%;*/
+            /*세로길이*/
+            height: 100px;
+            /*테두리 굵기*/
+            border-width: 2px;
+            /*테두리 색상*/
+            border-color: gold;
+            /*테두리 종류*/
+            border-style: solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div id=left>
+        <div class=title>
+
+            <h1>HTML Semantic Tag</h1>
+        </div>
+
+        <div id=contents1>
+            <ul>
+                <li>시멘틱 웹을 구현하기 위해 <span style="color:red">다양한 기술</span>이 등장</li>
+                <li>HTML5는 시멘틱 태그를 이용해 시멘틱 웹을 구현함</li>
+                <li>시멘틱 태그는 모두 div 태그와 같이 문서를 논리적으로 나누는 기능을 수행하는 태그</li>
+                <li>검색 엔진이나 로봇 그 이외의 기계적인 동작들이 웹페이지를 쉽게 이해할 수 있게 함</li>
+                <li>시멘틱 태그를 적용하면 사람이 코드를 작성하거나 확인할 때도 문서의 구성을 파악하기 쉽고</li>
+                <li>각 태그의 역할을 정확히 이해할 수 있으며 CSS 적용에 효율적임</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id=right>
+        <div class=title>
+            <h1>HTML5 시멘틱 구조 태그 </h1>
+        </div>
+
+        <div id=contents2>
+            <ol>
+                <li>header : 문서의 머리글, 도입부분</li>
+                <li>nav kor_nav : 문서의 메뉴, 네비게이션 부분, 한국의 네비게이션</li>
+                <li>aside : 문서의 사이드 메뉴, 공간</li>
+                <li>section : 문서의 여러 중심 내용을 감싸는 공간</li>
+                <li>article : 문서의 중심 내용 부분</li>
+                <li>footer : 문서의 바닥글 부분</li>
+                <li>address : 문서 관련 주소 기입 부분</li>
+                <li>thead / tbody / tfoot : 표의 머리글 / 본문 / 꼬리글</li>
+            </ol>
+        </div>
+    </div>
+
+    <div id=addr>
+        <hr> 강원도 춘천시 한림대학교 창의코딩 웹
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+===================================================================================================================
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>div 배열</title>
+    <style>
+        .test {
+            width:300px;
+            height:150px;
+            background-color:lightpink;
+            border:1px brown solid;
+            margin-right:20px;
+            margin-bottom:20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class=test>
+        div 1번
+    </div>
+    <div class=test>
+        div 2번
+    </div>
+    <div class=test>
+        div 3번
+    </div>
+    <div class=test>
+        div 4번
+    </div>
+    <div class=test>
+        div 5번
+    </div>
+    <div class=test>
+        div 6번
+    </div>
+    <div class=test>
+        div 7번
+    </div>
+    <div class=test>
+        div 8번
+    </div>
+    <div class=test>
+        div 9번
+    </div>
+    <div class=test>
+        div 10번
+    </div>
+    <div class=test>
+        div 11번
+    </div>
+    <div class=test>
+        div 12번
+    </div>
+    <div class=test>
+        div 13번
+    </div>
+    <div class=test>
+        div 14번
+    </div>
+    <div class=test>
+        div 15번
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+==========================================================================================
+
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>div 배열</title>
+    <style>
+      
+        #title {
+            background-color: black;
+            color: white;
+            height: 50px;
+        }
+        
+        #left {
+            float: left;
+            width: 40%;
+        }
+        
+        #middle {
+            float: left;
+            width: 40%;
+        }
+        
+        #right {
+            float: left;
+            width: 20%;
+        }
+        .contents{
+            margin-right: 5px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            background-color: red;
+        }
+        
+        #contents1 {
+            height: 200px;
+            background-color: red;
+            margin-top:5px;
+            margin-bottom:5px;
+            margin-right:5px;
+        }
+        
+        #contents2 {
+            height: 200px;
+            background-color: blue;
+                        margin-top:5px;
+            margin-bottom:5px;
+            margin-right:5px;
+        }
+        
+        #contents3 {
+            height: 200px;
+            background-color: yellow;
+                        margin-top:5px;
+            margin-bottom:5px;
+            margin-right:5px;
+        }
+        
+        
+        #bottom {
+            background-color: black;
+            color: white;
+            height: 50px;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div id=title>
+        <center>제목</center>
+    </div>
+        <div id=left>
+            <div id=contents1>
+                <center>내용</center>
+            </div>
+        </div>
+        <div id=middle>
+            <div id=contents2>
+                <center>내용</center>
+            </div>
+        </div>
+        <div id=right>
+            <div id=contents3>
+                <center>내용</center>
+            </div>
+        </div>
+    <div id=bottom>
+        <center>내용</center>
+    </div>
+</body>
+
+</html>
