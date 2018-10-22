@@ -48,8 +48,11 @@
         <img src = "C:/Users/user/Desktop/web03/image/bookcover.jpg" alt = "책 표지" usemap=#ph>
         <map name=ph>
             <area shape ="circle" alt="니체" href="https://ko.wikipedia.org/wiki/%ED%94%84%EB%A6%AC%EB%93%9C%EB%A6%AC%ED%9E%88_%EB%8B%88%EC%B2%B4" target="_blank"coords="170,280,50">
+	<!--x,y,반지름-->
             <area shape ="rect" alt="소크라테스" href="https://ko.wikipedia.org/wiki/%EC%86%8C%ED%81%AC%EB%9D%BC%ED%85%8C%EC%8A%A4" target="_blank" coords="240,180 310,245">
+	<!--양쪽 대각선-->
             <area shape ="poly" alt="칸트" href="https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%A7%88%EB%88%84%EC%97%98_%EC%B9%B8%ED%8A%B8" target="_blank" coords="315,280 270,325 285,385 325,430 410,335">
+	<!--다각형 점-->
         </map>
         <hr>
         <h2>목차</h2>
