@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    background-color: lightgray;
+    font-family: "???? ????";
+}
+#wrab{
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+}
+#logo{
+    width:100%;
+    margin: auto;            
+    padding: 50px 0px;
+    background-color: gray;
+}
+#logocontents{
+    width: 100px;
+    height: 55px;
+    background-color: blue;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px auto;
+}
+#middle{
+    margin: 10px auto;
+    width: 90%;
+}
+#menu ul{
+    padding-left: 0px;
+    margin-top: 0px;
+    width: 150px;
+    height: 200px;
+}
+#menu li{
+    list-style: none;
+}
+#menu a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+    background-color: #000;
+    color: #FFF;
+    opacity: 1; /*투명도*/
+    transition: 0.25s ease-in; /*바뀌는 시간, 원래 div에 쓰기*/
+}
+#menu a:hover{
+    background-color: blue;
+}
+#menu {
+    float: left;
+}
+#contents{
+    width: 150px;
+    height: 200px;
+    float: left;
+    font-weight: bold;
+}
+#rightimg{
+    width: 150px;
+    height: 200px;
+    float:right;
+}
+#footer{
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    clear: both;
+    border-top: 1px solid black;
+    text-align: center;
+}

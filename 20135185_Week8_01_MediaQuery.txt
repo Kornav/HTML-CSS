@@ -1,0 +1,28 @@
+<!doctype html>
+</html>
+<head>
+    <title>Media Query</title>
+    <meta charset="utf-8">
+    <style>
+    @media(max-width:599px){
+        body{
+            background-color: #F9F;
+        }
+        #title:after{
+            content: "Smart Phone";
+        }
+    }
+    @media only screen and (min-width:600px){
+        body{
+            background-color: #9F0;
+        }
+        #title:after{
+            content: "Desktop PC";
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1 id=title>접속기기 확인: </h1>
+</body>
+</html>

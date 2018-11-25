@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>FORNASETTI</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div id=wrab>
+        <div id=header>
+            <div id=logo>
+                <img src="logo.png" alt="logo image" >
+            </div>
+            <div id=menu>
+                <ul>
+                    <li><a href=#>HISTORY</a></li>
+                    <li><a href=#>OBJECTS</a></li>
+                    <li><a href=#>VINTAGE</a></li>
+                    <li><a href=#>REAILES</a></li>
+                    <li><a href=#>EXHIBITIONS</a></li>
+                    <li><a href=#>NEWS</a></li>
+                    <li><a href=#>CONTACTS</a></li>
+                    <li><a href=#><i class="fab fa-facebook"></i></a></li>
+                    <li><a href=#><i class="fab fa-instagram"></a></li>
+                    <li><a href=#><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id=con1>
+        </div>
+        <div id=con2>
+        </div>
+        <div id=con3>
+        </div>
+        <div id=con4>
+        </div>
+        <div id=con5>
+        </div>
+        <div id=con6>
+        </div>
+        <div id=con7>
+        </div>
+        <div id=contents>
+
+        </div>
+        <div id=footer>
+
+        </div>
+    </div>
+</body>
+
+</html>

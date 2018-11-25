@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!--margin 숫자 2개는 /top,bottom/ /left,right/를 의미-->
+    <!--margin 숫자 4개는 시계방향(top,right,bottom,left)를 의미-->
+    <title>생활코딩</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: lightgray;
+            font-family: "맑은 고딕";
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        #wrap {
+            width: 800px;
+            /*margin: auto -> 자동으로 여백설정 (가운데설정)*/
+            margin: auto;
+        }
+        
+        #title {
+            background-color: mediumblue;
+            text-align: center;
+            padding: 30px;
+            padding-bottom:10px;
+            margin-bottom: 0px;
+        }
+        #main_menu{
+        }
+        #sub_menu{
+            margin-top: 0px;
+            padding: 5px;
+            background-color: gray;
+        }
+        #main_title {
+            color: white;
+            font-size: 30px;
+        }
+        
+        #sub_title {
+            margin-top: 1px;
+            color: white;
+            font-size: 10px;
+        }
+        
+        #contents_title {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 10px;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+        }
+        
+        #contents_sub {
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        
+        #contents_subtitle {
+            margin-top: 20px;
+            font-weight: bold;
+            padding: 10px;
+            border-bottom: black 1px dashed;
+        }
+    </style>
+</head>
+
+<body>
+    <div id=wrap>
+        <div id=title>
+            <span id=main_title>생활코딩</span>
+            <span id=sub_title><br>codingEverybody</span>
+            <div id=main_menu>
+                <ul>
+                    <li>웹서비스 만들기</li>
+                    <li>언어</li>
+                    <li>클라이언트</li>
+                    <li>서버</li>
+                    <li>개발도구</li>
+                    <li>프로젝트 관리</li>
+                    <li>기타</li>
+                </ul>
+            </div>
+        </div>
+        <div id=sub_menu>
+            <ul>
+                <li>공동공부</li>
+            </ul>
+        </div>
+        <div id=contents_title>
+            기획
+        </div>
+        <div id=contents_sub>
+            웹 애플리케이션 만들기 수업으로 대체
+        </div>
+        <div id=contents_subtitle>
+            기획
+        </div>
+        <div>
+            기획이란 '일을 꾀하여 계획함'이라는 의미다. 웹개발에서 기획이란 현실의 문제를 발견하고, 그 문제를 웹을 통해서 어떻게 실현할 것인지에 대한 설계도와 로드맵을 만드는 일이다. 그리고 이를 실현할 수 있는 개발자나 디자이너에게
+            그것을 전파하고 조율한다.
+        </div>
+        <div id=contents_subtitle>
+            목표
+        </div>
+        <div>
+            기획이란 '일을 꾀하여 계획함'이라는 의미다. 웹개발에서 기획이란 현실의 문제를 발견하고, 그 문제를 웹을 통해서 어떻게 실현할 것인지에 대한 설계도와 로드맵을 만드는 일이다. 그리고 이를 실현할 수 있는 개발자나 디자이너에게
+            그것을 전파하고 조율한다.
+        </div>
+        <div id=contents_subtitle>
+            수업
+        </div>
+        <div>
+            기획이란 '일을 꾀하여 계획함'이라는 의미다. 웹개발에서 기획이란 현실의 문제를 발견하고, 그 문제를 웹을 통해서 어떻게 실현할 것인지에 대한 설계도와 로드맵을 만드는 일이다. 그리고 이를 실현할 수 있는 개발자나 디자이너에게
+            그것을 전파하고 조율한다.
+        </div>
+        <div>
+            더보기
+        </div>
+</body>
+
+</html>

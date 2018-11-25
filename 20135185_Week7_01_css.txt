@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: #eee;
+    font-family: "¸¼Àº °íµñ";
+}
+#wrap {
+    width: 800px;
+    margin: auto;
+}
+#title {
+    text-align: center;
+    background-color: #4d6c8b;
+    color: white;
+    padding: 8px 0px;
+}
+.study{
+    background-color:#ccc;
+    padding: 15px 42px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.study a:link{
+    text-decoration: none;
+    color:black;
+}
+.study a:hover{
+    text-decoration: none;
+    color:red;
+}
+#plan{
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Jeju Hallasan', cursive;
+}
+#redbox{
+    color: #FFFFFF;
+    background-color: rgba(255,0,0,0.7);
+    text-align: center;
+    padding: 20px 0px; /*¿©¹é: »óÇÏ , ÁÂ¿ì*/
+    border-radius: 20px;
+}
+#topmargin{
+    margin-top:30px;
+}
+#more{
+    text-align: center;
+}
+.dash{
+    padding-bottom: 10px;
+    border-bottom: black 1px dashed;
+}
+h1{
+    color: white;
+    margin-bottom: 0px;
+}
+ul {
+    margin: 30px 0px 15px 0px;
+    padding: 0px;
+    list-style: none;
+}
+li {
+    display: inline;
+    margin: 0px 18px;
+}
+li a {
+    text-decoration: none;
+    color: #ccc;
+}
+li a:hover {
+    color: blue;
+}
+@import url(//fonts.googleapis.com/earlyaccess/Jejuhallasan.css);

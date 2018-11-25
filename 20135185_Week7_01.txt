@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>OpenTutorials</title>
+        <link href="ot.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id=wrap>
+            <div id=title>
+                <h1>생활코딩</h1>
+                <small>CodingEverybody</small>
+                <ul>
+                        <li><a href=#>웹 서비스 만들기</a></li>
+                        <li><a href=#>언어</a></li>
+                        <li><a href=#>클라이언트</a></li>
+                        <li><a href=#>서버</a></li>
+                        <li><a href=#>개발도구</a></li>
+                        <li><a href=#>프로젝트 관리</a></li>
+                        <li><a href=#>기타</a></li>
+                </ul>
+            </div>
+            <div class=study>
+                <div id=leftmargin>
+                    <a href=#>공동공부</a></li>
+                </div>
+            </div>
+            <div id=plan>
+                기획
+                <hr>
+            </div>
+            <div id=redbox>
+                웹 애플리케이션 만들기 수업으로 대체
+            </div>
+            <div id=contents>
+                <h2 class=dash>기획</h2>
+                <p>
+                    기획이란 '일을 꾀하여 계획함'이라는 의미다. 웹개발에서 기획이란 현실의 문제를 발견하고, 그 문제를 웹을 통해서 어떻게 실현할 것인지에 대한 설계도와 로드맵을 만드는 일이다. 그리고 이를 실현할 수 있는 개발자나 디자이너에게 그것을 전파하고 조율한다. 
+                </p>
+
+                <h2 class=dash>목표</h2>
+                <p>
+                    그런데 생활코딩의 세계에서는 기획자가 따로 없다. 기획자가 필요 없다는 것이 아니다. 기획자가 개발하는 것이고, 개발자가 기획하는 것이다. 스스로 필요한 것을 궁리하고, 구현하고, 꾸며보는 순환 작업을 통해서 '내가 만든' 온전한 생산물을 경험해보는 것이 생활코딩의 목표다.
+                </p>
+                
+                <h2 class=dash>수업</h2>
+                구상에서는 생활코딩 플랫폼인 오픈튜토리얼스가 어떤 문제의식에서 시작됐는지에 대해서 알아본다. 이 문제의식이 시스템적으로 어떤 모습으로 구체화될 것인지를 UI 모델링에서 빠르게 그려볼 것이다.<br>
+            </div>
+            <div id=topmargin>
+                <div class=study>
+                    <div id=more>
+                        <a href=#> 더보기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>아리따움</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id=wrap>
+        <div id=header>
+            <div id=logo>
+                <img src=images/logo.gif alt="아리따움로고" width=180px height=26px>
+            </div>
+            <div id=menu>
+                <ul>
+                    <li><a href=#>스킨케어</a></li>
+                    <li><a href=#>메이크업</a></li>
+                    <li><a href=#>바디&헤어</a></li>
+                    <li><a href=#>네일</a></li>
+                    <li><a href=#>뷰티푸드&향수</a></li>
+                    <li><a href=#>브랜드</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id=main>
+            <img src=images/main.jpg alt="MainImage">
+        </div>
+        <div id=banners>
+
+            <div id=banner1>
+                <a href=#>헤어 & 바디 아이템<br>
+                나에게 선물하는 1+1</a>
+            </div>
+
+
+            <div id=banner2>
+                <a href=#>5월의 베스트 향수<br>
+                한달 간 30% OFF</a>
+            </div>
+
+            <div id=banner3>
+                <a href=#>대표 선크림 기획전<br>
+                자외선으로 부터 피부를 보호해요</a>
+            </div>
+
+        </div>
+        <div id=footer>
+            <div id=info>
+                고객상담(온라인) 080-555-6006 , (오프라인) 02-6080-9966 , 제품문의 080-023-5454(수신자요금부담)<br> 이메일주소 : support@aritaum.com
+                | 개인정보 관리 책임자 김진우<br> | 호스팅제공자 : (주)아모레퍼시픽 AMOREPACIFIC CORPORATION. ALL RIGHTS RESERVED.
+            </div>
+            <div id=sns>
+                <ul>
+                <li><a href=#><i class="fab fa-facebook"></i></a></li>
+                <li><a href=#><i class="fab fa-instagram"></i></a></li>
+                <li><a href=#><i class="fab fa-blogger"></i></a></li>
+                <li><a href=#><i class="fab fa-youtube"></i></a></li>
+                <li><a href=#><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

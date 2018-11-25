@@ -1,0 +1,75 @@
+body{
+    font-size: 11pt;
+    line-height: 150%;
+    margin: 0px;
+    background-image: url('images/bg.jpg');
+    background-repeat: repeat-x; /* 이미지를 x축으로만 반복 */
+}
+#wrap{
+    width: 900px;
+    margin: auto; /* 가운데 정렬 */
+}
+#logo{
+    margin-top:30px;
+}
+#menu{
+    width: 450px;
+    height: 20px;
+    float:right;
+}
+#menu li {
+    font-weight: bold;
+    display: inline;
+}
+#menu a:link {
+    text-decoration: none;
+    color: #000;
+}
+#menu li a:hover {
+    color: blue;
+}
+#header{
+    width: 900px;
+    height: 102px;
+}
+#main{
+    width: 900px;
+    height: 414px;
+}
+#banners{
+    width: 900px;
+    height: 127px;
+}
+#banner1{
+    background-image: url('images/b1.jpg');
+    width: 300px;
+    height: 127px;    
+}
+#banner2{
+    background-image: url('images/b2.jpg');
+    width: 300px;
+    height: 127px;    
+}
+#banner3{
+    background-image: url('images/b3.jpg');
+    width: 300px;
+    height: 127px;
+}
+#footer{
+    margin-top: 10px;
+    width: 900px;
+    height: 100px;
+    background-color: #fee5e9;
+}
+#info{
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    line-height: 150%;
+    float: left;
+}
+#sns{
+    margin-top: 40px;
+    margin-right: 10px;
+    float:right;
+}

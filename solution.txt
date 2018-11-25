@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>solution</title>
+    <meta charset="utf-8">
+    <style>
+        #wrab {
+            width: 90%;
+            margin: auto;
+            border: 1px solid black;
+        }
+        #header{
+            width:90%;
+            margin: auto;            
+            padding: 50px 0px;
+            border-bottom: 1px solid black;
+        }
+        #logo{
+            width: 100px;
+            height: 55px;
+            background-color: blue;
+            color: white;
+            font-size: 35px;
+            font-weight: bolder;
+            text-align: center;
+            margin: 0px auto;
+        }
+        #menu{
+            width: 150px;
+        }
+        #menu ul{
+            padding-left: 0px;
+        }
+        #menu li{
+            list-style: none;
+        }
+        #menu a{
+            display: block;
+            padding: 20px 10px;
+            background-color: #333;
+            color: #FFF;
+            opacity: 1; /*투명도*/
+            transition: 0.25s ease-in; /*바뀌는 시간, 원래 div에 쓰기*/
+        }
+        #menu a:hover{
+            background-color:blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id=wrab>
+        <div id=header>
+            <div id=logo>
+                LOGO
+            </div>
+        </div>
+
+        <div id=menu>
+            <ul>
+                <li id=menu1><a href=#>menu-1</a></li>
+                <li id=menu2><a href=#>menu-2</a></li>
+                <li id=menu3><a href=#>menu-3</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
