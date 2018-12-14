@@ -3,6 +3,15 @@
    text-align: center;
 }
 #body_header{
-   width: 800px;
+   width: 100%;
+   margin: 10px auto;
+}
+#body_blank{
+   width: 1200px;
+   height: 30px;
+   margin: 0px auto;
+}
+#body_img{
+   width: 1200px;
    margin: 0px auto;
 }
