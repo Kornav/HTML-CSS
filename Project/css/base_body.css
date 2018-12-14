@@ -14,8 +14,14 @@
    margin: 0px auto;
 }
 #body_con{
+   border: 1px solid black;
    width: 900px;
    height: 100%;
    margin: 0px auto;
    text-align: center;
+}
+#body_text{
+   width: 850px;
+   height: 100%;
+   margin: 0px auto;
 }
