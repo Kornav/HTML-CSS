@@ -1,0 +1,121 @@
+.rooms_lcon{
+    border: solid 1px #dfdfdf;
+    width: 270px;
+    height: 338px;
+    margin: 10px 0px 0px 22px;
+    float: left;
+}
+.rooms_mcon{
+    border: solid 1px #dfdfdf;
+    width: 270px;
+    height: 338px;
+    margin: 10px 0px 0px 22px;
+    float: left;
+}
+.rooms_rcon{
+    border: solid 1px #dfdfdf;
+    width: 270px;
+    height: 338px;
+    margin: 10px 22px 0px 0px;
+    float: right;
+}
+.rooms_lcon:hover{
+    border: solid 1px #888888;
+    width: 270px;
+    height: 338px;
+    margin: 10px 0px 0px 22px;
+    float: left;
+}
+.rooms_mcon:hover{
+    border: solid 1px #888888;
+    width: 270px;
+    height: 338px;
+    margin: 10px 0px 0px 22px;
+    float: left;
+}
+.rooms_rcon:hover{
+    border: solid 1px #888888;
+    width: 270px;
+    height: 338px;
+    margin: 10px 22px 0px 0px;
+    float: right;
+}
+.rooms_blank{
+    clear: both;
+    margin: 0px auto;
+}
+#glampingcube_img{
+    width: 100%;
+    height: 178px;
+    background-image: url(../img/room1.png);
+}
+#glamping1_img{
+    width: 100%;
+    height: 178px;
+    background-image: url(../img/room2.png);
+}
+#glamping2_img{
+    width: 100%;
+    height: 178px;
+    background-image: url(../img/room3.png);
+}
+#glamping3_img{
+    width: 100%;
+    height: 178px;
+    background-image: url(../img/room4.png);
+}
+#glamping4_img{
+    width: 100%;
+    height: 178px;
+    background-image: url(../img/room5.png);
+}
+#room1_img{
+    width: 100%;
+    height: 178px;
+    background-image: url(../img/room6.png);
+}
+#room2_img{
+    width: 100%;
+    height: 178px;
+    background-image: url(../img/room7.png);
+}
+#room3_img{
+    width: 100%;
+    height: 178px;
+    background-image: url(../img/room8.png);
+}
+#room4_img{
+    width: 100%;
+    height: 178px;
+    background-image: url(../img/room9.png);
+}
+#room5_img{
+    width: 100%;
+    height: 178px;
+    background-image: url(../img/room10.png);
+}
+#room6_img{
+    width: 100%;
+    height: 178px;
+    background-image: url(../img/room11.png);
+}
+.rooms_name a{
+    text-decoration: none;
+    color: black;
+}
+.rooms_name {
+    width: 90%;
+    border-bottom: dashed 1px gray;
+    padding-bottom: 5px;
+    margin: 5px auto;
+}
+.rooms_info ul{
+    padding: 5px 0px 0px 0px;
+    margin: 0px 0px 0px 20px;
+    list-style-type: square;
+}
+.rooms_info li{
+    text-align: left;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
