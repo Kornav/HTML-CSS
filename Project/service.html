@@ -6,27 +6,39 @@
     <title>index</title>
     <link href="css/header.css" rel="stylesheet" type="text/css">
     <link href="css/base_body.css" rel="stylesheet" type="text/css">
+    <link href="css/service.css" rel="stylesheet" type="text/css">
     <link href="css/footer.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.mov').click(function(){  // mov 클래스가 설정된 부분을 클릭하면 href에 적은 값만큼 세로로 스크롤 시킨다.
+                var ss = $(this).attr("href");
+                $('html, body').animate({scrollTop:ss});
+                return false;
+            });
+        });
+    </script>
 </head>
 
 <body>
     <div id=header>
-            <div id=header_wrap>
-        <div id=top>
-        </div>
-        <div id=logo>
-            <table width="1200" height="150" cellpadding="0" cellspacing="0">
-                <tr>
-                    <td width=400px align="left"><a href=#><img src="img/facebook.jpg"></a></td>
-                    <td width=400px rowspan=2 align="center"><a href=index.html><img src="img/Arena.png"></a></td>
-                    <td width=400px rowspan=2 align="right"><a href=#><img src="img/Reserve.png"></a></td>
-                </tr>
-                <tr>
-                    <td align="left"><a href=#><img src="img/instagram.jpg"></a></td>
-                </tr>
-            </table>
-        </div>
+        <div id=header_wrap>
+            <div id=top>
             </div>
+            <div id=logo>
+                <table width="1200" height="150" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width=400px align="left"><a href=#><img src="img/facebook.jpg"></a></td>
+                        <td width=400px rowspan=2 align="center"><a href=index.html><img src="img/Arena.png"></a></td>
+                        <td width=400px rowspan=2 align="right"><a href=#><img src="img/Reserve.png"></a></td>
+                    </tr>
+                    <tr>
+                        <td align="left"><a href=#><img src="img/instagram.jpg"></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
         <div id=menu>
             <ul>
                 <li><a href="LandScape.html">LANDSCAPE</a></li>
@@ -43,11 +55,48 @@
     <div id=header_blank>
     </div>
     <div id=body_wrap>
-            <div id=body_blank></div>
-            <div id=body_header>
-                <img src="img/service_info.png">
+        <div id=body_blank></div>
+        <div id=body_header>
+            <img src="img/service_info.png">
+        </div>
+        <div id=body_blank></div>
+        <div id=body_con>
+            <div id=body_menu>
+                <ul>
+                    <a href=150 class=mov><li>바베큐</li></a>
+                    <a href=546 class=mov><li>커피&티</li></a>
+                    <a href=892 class=mov><li>보드게임</li></a>
+                    <a href=1238 class=mov><li>만화&도서</li></a>
+                    <a href=1584 class=mov><li>WiFi&배드민턴</li></a>
+                </ul>
             </div>
-            <div id=body_blank></div>
+        </div>
+        <div class=body_item>
+            <div class=body_litem><img src=img/service_1.png></div>
+            <div class=body_topitem><img src=img/service_top_1.png></div>
+            <div class=body_bottomitem><img src=img/service_bottom_1.png></div>
+        </div>
+        <div class=body_item>
+                <div class=body_litem><img src=img/service_2.png></div>
+                <div class=body_topitem><img src=img/service_top_2.png></div>
+                <div class=body_bottomitem><img src=img/service_bottom_2.png></div>
+        </div>
+        <div class=body_item>
+                <div class=body_litem><img src=img/service_3.png></div>
+                <div class=body_topitem><img src=img/service_top_3.png></div>
+                <div class=body_bottomitem><img src=img/service_bottom_3.png></div>
+        </div>
+        <div class=body_item>
+                <div class=body_litem><img src=img/service_4.png></div>
+                <div class=body_topitem><img src=img/service_top_4.png></div>
+                <div class=body_bottomitem><img src=img/service_bottom_4.png></div>
+        </div>
+        <div class=body_item>
+                <div class=body_litem><img src=img/service_5.png></div>
+                <div class=body_topitem><img src=img/service_top_5.png></div>
+                <div class=body_bottomitem><img src=img/service_bottom_5.png></div>
+        </div>
+        <div id=body_blank></div>
     </div>
     <div id=footer_wrap>
         <div id=footer>
@@ -90,10 +139,4 @@
                 </ul>
             </div>
             <div id=footer_logo>
-                <a href=#><img src=img/fo_logo.png></a>
-            </div>
-        </div>
-    </div>
-</body>
-    
-</html>
+                <a href=#><img src=img/fo_logo.png> </a> </div> </div> </div> </body> </html>

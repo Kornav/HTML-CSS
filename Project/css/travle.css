@@ -1,0 +1,23 @@
+#body_menu{
+    margin-bottom: 20px;
+}
+#body_menu ul{
+    list-style: none;
+    padding-left: 0px;
+}
+#body_menu li{
+    border : 1px solid #dfdfdf;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px 0px -6px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#body_menu a{
+    text-decoration: none;
+    color: black;
+}
+#select{
+    background-color: #fac08f;
+    color: white;
+}
