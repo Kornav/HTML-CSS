@@ -1,4 +1,6 @@
 #body_wrap{
-    text-align: center;
-    height: 593px;
+    width: 1000px;
+    height: 583px;
+    margin: 0px auto;
+    background-color: white;
 }
