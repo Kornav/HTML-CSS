@@ -8,9 +8,40 @@
     <link href="css/base_body.css" rel="stylesheet" type="text/css">
     <link href="css/rooms.css" rel="stylesheet" type="text/css">
     <link href="css/footer.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript">
+        var stmnLEFT = 10; // 오른쪽 여백 
+        var stmnGAP1 = 0; // 위쪽 여백 
+        var stmnGAP2 = 400; // 스크롤시 브라우저 위쪽과 떨어지는 거리 
+        var stmnBASE = 400; // 스크롤 시작위치 
+        var stmnActivateSpeed = 20; //스크롤을 인식하는 딜레이 (숫자가 클수록 느리게 인식)
+        var stmnScrollSpeed = 10; //스크롤 속도 (클수록 느림)
+        var stmnTimer; 
+        
+        function RefreshStaticMenu() { 
+         var stmnStartPoint, stmnEndPoint; 
+         stmnStartPoint = parseInt(document.getElementById('SIDEMENU').style.top, 10); 
+         stmnEndPoint = Math.max(document.documentElement.scrollTop, document.body.scrollTop) + stmnGAP2; 
+         if (stmnEndPoint < stmnGAP1) stmnEndPoint = stmnGAP1; 
+         if (stmnStartPoint != stmnEndPoint) { 
+          stmnScrollAmount = Math.ceil( Math.abs( stmnEndPoint - stmnStartPoint ) / 15 ); 
+          document.getElementById('SIDEMENU').style.top = parseInt(document.getElementById('SIDEMENU').style.top, 10) + ( ( stmnEndPoint<stmnStartPoint ) ? -stmnScrollAmount : stmnScrollAmount ) + 'px'; 
+          stmnRefreshTimer = stmnScrollSpeed; 
+          }
+         stmnTimer = setTimeout("RefreshStaticMenu();", stmnActivateSpeed); 
+         } 
+        function InitializeStaticMenu() {
+         document.getElementById('SIDEMENU').style.right = stmnLEFT + 'px';  //처음에 오른쪽에 위치. 
+         document.getElementById('SIDEMENU').style.top = document.body.scrollTop + stmnBASE + 'px'; 
+         RefreshStaticMenu();
+         }
+    </script>
 </head>
 
-<body>
+<body onload="InitializeStaticMenu();">
+        <div id=SIDEMENU>
+                <a href=#><img src="img/totop.png"></a>
+            </div>
     <div id=header>
         <div id=header_wrap>
             <div id=top>
@@ -50,13 +81,13 @@
         <div id=body_blank></div>
         <div id=body_con>
             <div class=rooms_lcon>
-                <a href="index.html">
+                <a href="room1.html">
                     <!--glpampingcube-->
                     <div id=glampingcube_img>
                     </div>
                 </a>
                 <div class=rooms_name>
-                    <a href="index.html">글램핑큐브</a>
+                    <a href="room1.html">글램핑큐브</a>
                 </div>
                 <div class=rooms_info>
                     <ul>
@@ -68,14 +99,14 @@
                 </div>
             </div>
             <div class=rooms_mcon>
-                <a href="index.html">
+                <a href="room2.html">
                     <!--glpamping1-->
                     <div id=glamping1_img>
 
                     </div>
                 </a>
                 <div class=rooms_name>
-                    <a href="index.html">글램핑#1</a>
+                    <a href="room2.html">글램핑#1</a>
                 </div>
                 <div class=rooms_info>
                     <ul>
@@ -87,14 +118,14 @@
                 </div>
             </div>
             <div class=rooms_rcon>
-                <a href="index.html">
+                <a href="room3.html">
                     <!--glpampingcube-->
                     <div id=glamping2_img>
 
                     </div>
                 </a>
                 <div class=rooms_name>
-                    <a href="index.html">글램핑#2</a>
+                    <a href="room3.html">글램핑#2</a>
                 </div>
                 <div class=rooms_info>
                     <ul>
@@ -107,14 +138,14 @@
             </div>
             <div class=rooms_blank></div>
             <div class=rooms_lcon>
-                <a href="index.html">
+                <a href="room4.html">
                     <!--glpampingcube-->
                     <div id=glamping3_img>
 
                     </div>
                 </a>
                 <div class=rooms_name>
-                    <a href="index.html">글램핑#3</a>
+                    <a href="room4.html">글램핑#3</a>
                 </div>
                 <div class=rooms_info>
                     <ul>
@@ -126,14 +157,14 @@
                 </div>
             </div>
             <div class=rooms_mcon>
-                <a href="index.html">
+                <a href="room5.html">
                     <!--glpampingcube-->
                     <div id=glamping4_img>
 
                     </div>
                 </a>
                 <div class=rooms_name>
-                    <a href="index.html">글램핑#4</a>
+                    <a href="room5.html">글램핑#4</a>
                 </div>
                 <div class=rooms_info>
                     <ul>
@@ -145,14 +176,14 @@
                 </div>
             </div>
             <div class=rooms_rcon>
-                <a href="index.html">
+                <a href="room6.html">
                     <!--glpampingcube-->
                     <div id=room1_img>
 
                     </div>
                 </a>
                 <div class=rooms_name>
-                    <a href="index.html">자스민(1층)</a>
+                    <a href="room6.html">자스민(1층)</a>
                 </div>
                 <div class=rooms_info>
                     <ul>
@@ -165,14 +196,14 @@
             </div>
             <div class=rooms_blank></div>
             <div class=rooms_lcon>
-                <a href="index.html">
+                <a href="room7.html">
                     <!--glpampingcube-->
                     <div id=room2_img>
 
                     </div>
                 </a>
                 <div class=rooms_name>
-                    <a href="index.html">라즈베리(2층)</a>
+                    <a href="room7.html">라즈베리(2층)</a>
                 </div>
                 <div class=rooms_info>
                     <ul>
@@ -184,14 +215,14 @@
                 </div>
             </div>
             <div class=rooms_mcon>
-                <a href="index.html">
+                <a href="room8.html">
                     <!--glpampingcube-->
                     <div id=room3_img>
 
                     </div>
                 </a>
                 <div class=rooms_name>
-                    <a href="index.html">제노아(3층)</a>
+                    <a href="room8.html">제노아(3층)</a>
                 </div>
                 <div class=rooms_info>
                     <ul>
@@ -203,14 +234,14 @@
                 </div>
             </div>
             <div class=rooms_rcon>
-                <a href="index.html">
+                <a href="room9.html">
                     <!--glpampingcube-->
                     <div id=room4_img>
 
                     </div>
                 </a>
                 <div class=rooms_name>
-                    <a href="index.html">올리브(3층)</a>
+                    <a href="room9.html">올리브(3층)</a>
                 </div>
                 <div class=rooms_info>
                     <ul>
@@ -223,14 +254,14 @@
             </div>
             <div class=rooms_blank></div>
             <div class=rooms_lcon>
-                <a href="index.html">
+                <a href="room10.html">
                     <!--glpampingcube-->
                     <div id=room5_img>
 
                     </div>
                 </a>
                 <div class=rooms_name>
-                    <a href="index.html">테르니(3층)</a>
+                    <a href="room10.html">테르니(3층)</a>
                 </div>
                 <div class=rooms_info>
                     <ul>
@@ -242,14 +273,14 @@
                 </div>
             </div>
             <div class=rooms_mcon>
-                <a href="index.html">
+                <a href="room11.html">
                     <!--glpampingcube-->
                     <div id=room6_img>
 
                     </div>
                 </a>
                 <div class=rooms_name>
-                    <a href="index.html">시나몬(3층)</a>
+                    <a href="room11.html">시나몬(3층)</a>
                 </div>
                 <div class=rooms_info>
                     <ul>

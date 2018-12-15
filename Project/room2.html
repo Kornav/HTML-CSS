@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>index</title>
+    <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link href="css/base_body.css" rel="stylesheet" type="text/css">
+    <link href="css/room_base.css" rel="stylesheet" type="text/css">
+    <link href="css/footer.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript">
+        var stmnLEFT = 10; // 오른쪽 여백 
+        var stmnGAP1 = 0; // 위쪽 여백 
+        var stmnGAP2 = 400; // 스크롤시 브라우저 위쪽과 떨어지는 거리 
+        var stmnBASE = 400; // 스크롤 시작위치 
+        var stmnActivateSpeed = 20; //스크롤을 인식하는 딜레이 (숫자가 클수록 느리게 인식)
+        var stmnScrollSpeed = 10; //스크롤 속도 (클수록 느림)
+        var stmnTimer; 
+        
+        function RefreshStaticMenu() { 
+         var stmnStartPoint, stmnEndPoint; 
+         stmnStartPoint = parseInt(document.getElementById('SIDEMENU').style.top, 10); 
+         stmnEndPoint = Math.max(document.documentElement.scrollTop, document.body.scrollTop) + stmnGAP2; 
+         if (stmnEndPoint < stmnGAP1) stmnEndPoint = stmnGAP1; 
+         if (stmnStartPoint != stmnEndPoint) { 
+          stmnScrollAmount = Math.ceil( Math.abs( stmnEndPoint - stmnStartPoint ) / 15 ); 
+          document.getElementById('SIDEMENU').style.top = parseInt(document.getElementById('SIDEMENU').style.top, 10) + ( ( stmnEndPoint<stmnStartPoint ) ? -stmnScrollAmount : stmnScrollAmount ) + 'px'; 
+          stmnRefreshTimer = stmnScrollSpeed; 
+          }
+         stmnTimer = setTimeout("RefreshStaticMenu();", stmnActivateSpeed); 
+         } 
+        function InitializeStaticMenu() {
+         document.getElementById('SIDEMENU').style.right = stmnLEFT + 'px';  //처음에 오른쪽에 위치. 
+         document.getElementById('SIDEMENU').style.top = document.body.scrollTop + stmnBASE + 'px'; 
+         RefreshStaticMenu();
+         }
+    </script>
+</head>
+
+<body onload="InitializeStaticMenu();">
+    <div id=SIDEMENU>
+        <a href=#><img src="img/totop.png"></a>
+    </div>
+    <div id=header>
+        <div id=header_wrap>
+            <div id=top>
+            </div>
+            <div id=logo>
+                <table width="1200" height="150" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width=400px align="left"><a href=http://www.facebook.com/arenapension/ target="_blank"><img src="img/facebook.jpg"></a></td>
+                        <td width=400px rowspan=2 align="center"><a href=index.html><img src="img/arena.png"></a></td>
+                        <td width=400px rowspan=2 align="right"><a href=reservation.html><img src="img/reserve.png"></a></td>
+                    </tr>
+                    <tr>
+                        <td align="left"><a href=http://www.instagram.com/jhonhur/ target="_blank"><img src="img/instagram.jpg"></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id=menu>
+            <ul>
+                <li><a href="landscape.html">LANDSCAPE</a></li>
+                <li><a href="rooms.html">ROOMS</a></li>
+                <li><a href="facilities.html">FACILITIES</a></li>
+                <li><a href="service.html">SERVICE</a></li>
+                <li><a href="travle.html">TRAVLE</a></li>
+                <li><a href="traffic.html">TARFFIC</a></li>
+                <li><a href="reservation.html">RESERVATION</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id=header_blank>
+    </div>
+    <div id=body_wrap>
+        <div id=body_blank></div>
+        <div id=body_header>
+            <img src="img/room_info.png">
+            <div id=body_menu>
+                <ul>
+                    <a href=room1.html>
+                    <li>글램핑큐브</li>
+                    </a>
+                    <li id=select>글램핑#1</li>
+                    <a href=room3.html>
+                        <li>글램핑#2</li>
+                    </a>
+                    <a href=room4.html>
+                        <li>글램핑#3</li>
+                    </a>
+                    <a href=room5.html>
+                        <li>글램핑#4</li>
+                    </a>
+                    <a href=room6.html>
+                        <li>자스민(1층)</li>
+                    </a>
+                    <a href=room7.html>
+                        <li>라즈베리(2층)</li>
+                    </a>
+                    <a href=room8.html>
+                        <li>제노아(3층)</li>
+                    </a>
+                    <a href=room9.html>
+                        <li>올리브(3층)</li>
+                    </a>         
+                    <a href=room10.html>
+                        <li>테르니(3층)</li>
+                    </a>
+                    <a href=room11.html>
+                        <li>시나몬(3층)</li>
+                    </a>                    
+                </ul>
+            </div>
+        </div>
+        <div id=body_blank></div>
+        <div id=body_con>
+            <img src="img/room_title_2.png">
+            <img src="img/room_img_2.png">
+            <img src="img/room_details_2.png">
+            <img src="img/room_dinfo_2.png">
+        </div>
+        <div id=body_blank></div>
+    </div>
+    <div id=footer_wrap>
+        <div id=footer>
+            <div id=address>
+                <ul>
+                    <li>
+                        업체명 : 아레나
+                    </li>
+                    <li>
+                        대표자명 : 신선녀
+                    </li>
+                    <li>
+                        사업자등록번호 : 223-03-30199
+                    </li>
+                    <li>
+                        통신판매업신고번호 : 2011-강원홍천-0038
+                    </li>
+                    <br>
+                    <li>
+                        이메일 : jhonhur@naver.com
+                    </li>
+                    <li>
+                        연락처 : 010-8793-0092 / 010-9022-3169
+                    </li>
+                    <li>
+                        주소 : 강원 홍천군 북방면 노일리 907-1
+                    </li>
+                    <br>
+                    <li><a href=#>통신판매업확인</a></li>
+                    <li class=fo_blank>ㅣ</li>
+                    <li><a href=#>이용약관</a></li>
+                    <li class=fo_blank>ㅣ</li>
+                    <li><a href=#>저작권</a></li>
+                    <li class=fo_blank>ㅣ</li>
+                    <li><a href=#>개인정보처리방침</a></li>
+                    <li class=fo_blank>ㅣ</li>
+                    <li><a href=#>관리자로그인</a></li>
+                    <li class=fo_blank>ㅣ</li>
+                    <li><a>Design by Kornav</a></li>
+                </ul>
+            </div>
+            <div id=footer_logo>
+                <a href=index.html><img src=img/fo_logo.png> </a> </div> </div> </div> </body> </html>

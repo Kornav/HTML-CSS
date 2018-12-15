@@ -1,0 +1,22 @@
+#body_menu{
+    margin-bottom: 20px;
+    border-top: double #cccccc;
+}
+#body_menu ul{
+    margin: 3px auto 0px auto;
+    padding-left: 0px;
+    width: 100%;
+    border-bottom: 1px solid #dfdfdf;
+}
+#body_menu li{
+    display: inline;
+    font-size: 13px;
+    margin: 0px 10.5px 0px 0.5px;
+}
+#body_menu a{
+    text-decoration: none;
+    color: black;
+}
+#select{
+    border-bottom: solid 2px #8db3e2;
+}
