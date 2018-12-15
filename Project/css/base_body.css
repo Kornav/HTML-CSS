@@ -13,12 +13,16 @@
    height: 30px;
    margin: 0px auto;
 }
-#body_con{
-   border: 1px solid black;
+#body_header{
    width: 900px;
    height: 100%;
    margin: 0px auto;
    text-align: center;
+}
+#body_con{
+   width: 900px;
+   height: 100%;
+   margin: 0px auto;
 }
 #body_text{
    width: 850px;

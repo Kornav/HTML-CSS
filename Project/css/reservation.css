@@ -1,0 +1,70 @@
+#body_menu{
+    margin-bottom: 20px;
+}
+#body_menu ul{
+    list-style: none;
+    padding-left: 0px;
+}
+#body_menu li{
+    border : 1px solid #dfdfdf;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px 0px 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#body_menu a{
+    text-decoration: none;
+    color: black;
+}
+.reservation_head{
+    width: 900px;
+    height: 40px;
+    border-bottom: dashed 2px #dfdfdf;
+}
+#reservation_fee{
+    width: 453px;
+    margin: 20px 30px;
+}
+#reservation_reserve{
+    margin: 20px 30px;
+    font-size: 14px;
+}
+#reservation_use{
+    margin: 20px 30px;
+    font-size: 14px;
+}
+#reservation_refund{
+    margin: 20px 30px;
+}
+.tb_title{
+    color: #666666;
+    width: 150px;   
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.tb_rcon{
+    color: #666666;
+    width: 150px;
+    height: 14px; 
+    font-size: 14px;
+    text-align: center;
+}
+.tb_con{
+    width: 150px;
+    height: 14px; 
+    font-size: 12px;
+    text-align: center;
+}
+.tb_dcon{
+    color: #269c79;
+    width: 150px;
+    height: 14px; 
+    font-size: 12px;
+    text-align: center;
+}
+.tb2_title{
+    background-color: #fafafa;
+    text-align: center;
+}

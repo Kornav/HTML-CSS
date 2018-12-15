@@ -6,48 +6,244 @@
     <title>index</title>
     <link href="css/header.css" rel="stylesheet" type="text/css">
     <link href="css/base_body.css" rel="stylesheet" type="text/css">
+    <link href="css/reservation.css" rel="stylesheet" type="text/css">
     <link href="css/footer.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.mov').click(function () {  // mov 클래스가 설정된 부분을 클릭하면 href에 적은 값만큼 세로로 스크롤 시킨다.
+                var ss = $(this).attr("href");
+                $('html, body').animate({ scrollTop: ss });
+                return false;
+            });
+        });
+    </script>
 </head>
 
 <body>
     <div id=header>
-            <div id=header_wrap>
-        <div id=top>
-        </div>
-        <div id=logo>
-            <table width="1200" height="150" cellpadding="0" cellspacing="0">
-                <tr>
-                    <td width=400px align="left"><a href=#><img src="img/facebook.jpg"></a></td>
-                    <td width=400px rowspan=2 align="center"><a href=index.html><img src="img/Arena.png"></a></td>
-                    <td width=400px rowspan=2 align="right"><a href=#><img src="img/Reserve.png"></a></td>
-                </tr>
-                <tr>
-                    <td align="left"><a href=#><img src="img/instagram.jpg"></a></td>
-                </tr>
-            </table>
-        </div>
+        <div id=header_wrap>
+            <div id=top>
             </div>
+            <div id=logo>
+                <table width="1200" height="150" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width=400px align="left"><a href=http://www.facebook.com/arenapension/ target="_blank"><img src="img/facebook.jpg"></a></td>
+                        <td width=400px rowspan=2 align="center"><a href=index.html><img src="img/arena.png"></a></td>
+                        <td width=400px rowspan=2 align="right"><a href=reservation.html><img src="img/reserve.png"></a></td>
+                    </tr>
+                    <tr>
+                        <td align="left"><a href=http://www.instagram.com/jhonhur/ target="_blank"><img src="img/instagram.jpg"></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
         <div id=menu>
             <ul>
-                <li><a href="LandScape.html">LANDSCAPE</a></li>
+                <li><a href="landscape.html">LANDSCAPE</a></li>
                 <li><a href="rooms.html">ROOMS</a></li>
                 <li><a href="facilities.html">FACILITIES</a></li>
                 <li><a href="service.html">SERVICE</a></li>
                 <li><a href="travle.html">TRAVLE</a></li>
                 <li><a href="traffic.html">TARFFIC</a></li>
                 <li><a href="reservation.html">RESERVATION</a></li>
-                <li><a href="community.html">COMMUNITY</a></li>
             </ul>
         </div>
     </div>
     <div id=header_blank>
     </div>
     <div id=body_wrap>
+        <div id=body_blank></div>
+        <div id=body_header>
+            <img src="img/reservation_info.png">
+        </div>
+        <div id=body_blank></div>
+        <div id=body_header>
+            <div id=body_menu>
+                <ul>
+                    <a href=240 class=mov>
+                        <li>요금안내</li>
+                    </a>
+                    <a href=1720 class=mov>
+                        <li>예약안내</li>
+                    </a>
+                    <a href=2310 class=mov>
+                        <li>이용안내</li>
+                    </a>
+                    <a href=2750 class=mov>
+                        <li>환뷸규정</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
             <div id=body_blank></div>
-            <div id=body_header>
-                <img src="img/reservation_info.png">
+            <div id=body_con>
+            <div class=reservation_head>
+                <img src="img/reservation_1.png">
+            </div>
+            <div id=reservation_fee>
+                <table border=1px cellspacing=0>
+                    <tr>  <td class=tb_title>객실명<br>(기준~최대)</td> <td class=tb_title>구분</td> <td class=tb_title>요금</td>  </tr>
+
+                    <tr>  <td class=tb_rcon rowspan=6>글램핑 큐브<br>기준2/최대4<br>20평(약66㎡)<br></td> <td class=tb_con rowspan=2>비수기</td> <td class=tb_con><s>330,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>130,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>준성수기</td> <td class=tb_con><s>350,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>180,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>성수기</td> <td class=tb_con><s>390,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>240,000</td>  </tr>
+
+                    <tr>  <td class=tb_rcon rowspan=6>글램핑1<br>기준2/최대4<br>15평(약50㎡)<br></td> <td class=tb_con rowspan=2>비수기</td> <td class=tb_con><s>300,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>110,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>준성수기</td> <td class=tb_con><s>320,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>160,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>성수기</td> <td class=tb_con><s>360,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>200,000</td>  </tr>
+
+                    <tr>  <td class=tb_rcon rowspan=6>글램핑2<br>기준2/최대4<br>15평(약50㎡)<br></td> <td class=tb_con rowspan=2>비수기</td> <td class=tb_con><s>300,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>110,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>준성수기</td> <td class=tb_con><s>320,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>160,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>성수기</td> <td class=tb_con><s>360,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>200,000</td>  </tr>
+
+                    <tr>  <td class=tb_rcon rowspan=6>글램핑3<br>기준2/최대4<br>15평(약50㎡)<br></td> <td class=tb_con rowspan=2>비수기</td> <td class=tb_con><s>300,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>110,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>준성수기</td> <td class=tb_con><s>320,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>160,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>성수기</td> <td class=tb_con><s>360,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>200,000</td>  </tr>
+
+                    <tr>  <td class=tb_rcon rowspan=6>글램핑4<br>기준2/최대4<br>15평(약50㎡)<br></td> <td class=tb_con rowspan=2>비수기</td> <td class=tb_con><s>300,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>110,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>준성수기</td> <td class=tb_con><s>320,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>160,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>성수기</td> <td class=tb_con><s>360,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>200,000</td>  </tr>
+
+                    <tr>  <td class=tb_rcon rowspan=6>자스민<br>기준4/최대8<br>30평(약99㎡)<br></td> <td class=tb_con rowspan=2>비수기</td> <td class=tb_con><s>240,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>160,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>준성수기</td> <td class=tb_con><s>280,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>180,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>성수기</td> <td class=tb_con><s>320,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>220,000</td>  </tr>
+
+                    <tr>  <td class=tb_rcon rowspan=6>라즈베리<br>기준2/최대3<br>12평(약40㎡)<br></td> <td class=tb_con rowspan=2>비수기</td> <td class=tb_con><s>100,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>79,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>준성수기</td> <td class=tb_con><s>110,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>90,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>성수기</td> <td class=tb_con><s>150,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>110,000</td>  </tr>
+
+                    <tr>  <td class=tb_rcon rowspan=6>테르니<br>기준2/최대3<br>12평(약40㎡)<br></td> <td class=tb_con rowspan=2>비수기</td> <td class=tb_con><s>100,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>79,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>준성수기</td> <td class=tb_con><s>110,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>90,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>성수기</td> <td class=tb_con><s>150,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>110,000</td>  </tr>
+
+                    <tr>  <td class=tb_rcon rowspan=6>시나몬<br>기준2/최대3<br>12평(약40㎡)<br></td> <td class=tb_con rowspan=2>비수기</td> <td class=tb_con><s>100,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>79,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>준성수기</td> <td class=tb_con><s>110,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>90,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>성수기</td> <td class=tb_con><s>150,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>110,000</td>  </tr>
+
+                    <tr>  <td class=tb_rcon rowspan=6>올리브<br>기준2/최대4<br>15평(약50㎡)<br></td> <td class=tb_con rowspan=2>비수기</td> <td class=tb_con><s>110,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>89,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>준성수기</td> <td class=tb_con><s>140,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>100,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>성수기</td> <td class=tb_con><s>160,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>120,000</td>  </tr>
+
+                    <tr>  <td class=tb_rcon rowspan=6>제노아<br>기준2/최대4<br>15평(약50㎡)<br></td> <td class=tb_con rowspan=2>비수기</td> <td class=tb_con><s>110,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>89,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>준성수기</td> <td class=tb_con><s>140,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>100,000</td>  </tr>
+                    <tr>  </td> <td class=tb_con rowspan=2>성수기</td> <td class=tb_con><s>160,000</s></td>  </tr>
+                    <tr>  <td class=tb_dcon>120,000</td>  </tr>
+
+                </table>
             </div>
             <div id=body_blank></div>
+
+            <div class=reservation_head>
+                <img src="img/reservation_2.png">
+            </div>
+            <div id=reservation_reserve>
+                <div id=body_text>
+                - 요금은 2인 기준인원 요금입니다.<br>
+                - 예약방법 : 전화문의<br>
+                - 입금기한 : 예약 후 12시간, 1일 전 예약 또는 당일 예약의 경우 예약 후 바로 입금<br>
+                - 입ㆍ퇴실 기준(1박) : 숙박당일 오후 3시부터~다음날 오전11시까지<br>
+                - 성 수 기 : 여름 7월 1일~ 8월 31일 / 겨울 12월 24일~12월 31일<br>
+                - 준성수기 : 여름 7월 1일~7월 14일 / 겨울 12월 10일~12월 23일, 1월 1일~1월 31일 ( 시즌 상황에 따라 탄력적으로 운영 됩니다 )<br>
+                - 인원추가는 최대인원 범위 내에서만 가능하며, 1인추가시 20,000원의 비용 발생되며 24개월부터 초등학생까지는 1만원의 비용이 발생됩니다.<br><br><br>
+                
+                
+                • 입금 계좌<br>
+                    농협 352-0092-2003-13 (예금주 :신선녀)<br><br>
+
+                • 예약문의<br>
+                    휴대전화 : 010-8793-0092 / 010-9022-3169    일반전화 : 010-9022-3169<br><br>
+
+                • 입금 대기시간<br>
+                    1) 예약신청 후 12시간 내로 전액을 입금하셔야 예약이 완료 됩니다.<br>
+                    2) 당일 예약 / 하루전 예약시 2시간 내로 결제를 완료 해 주셔야 합니다.<br>
+                    ※ 입금 대기 시간이 경과되면 예약신청이 자동 취소됩니다.<br><br>
+
+                • 추가인원 요금<br><br>
+                <table border=1 cellspacing=0>
+                    <tr>  <td class=tb2_title>성인<br>(중학생~성인)</td> <td class=tb2_title>아동<br>(24개월~초등생)</td> <td class=tb2_title>유아<br>(1일~24개월 미만)</td>  </tr>
+                    <tr>  <td class=tb_con>20,000</td> <td class=tb_con>10,000</td> <td class=tb_con>10,000</td>  </tr>
+                </table>
+            </div>
+            </div>
+            <div id=body_blank></div>
+
+            <div class=reservation_head>
+                <img src="img/reservation_3.png">
+            </div>
+            <div id=reservation_use>
+                • 입실시간 : 15 시 ( 20 시 이후의 입실은 사전에 반드시 연락을 주시기 바랍니다. )<br>
+                • 퇴실시간 : 11 시<br><br>
+                
+                숯&그릴 이용료는 2인기준15,000원요금이 발생됩니다.<br>
+                - 꼭 지켜주세요 -<br>
+                - 쓰레기는 꼭 분리하여 배출해 주세요.<br>
+                - 지나친 고성방가와 다른 손님들에게 피해가 가는 행동은 삼가 해 주세요.<br>
+                - 아레나펜션은 여러분을 위한 공간입니다. 다음 손님을 위해 깨끗하게 사용해 주세요.<br>
+                - 퇴실 시 사용한 그릇의 설거지는 기본예절입니다. 꼭 부탁드립니다.<br><br>
+
+                - 유의해주세요! - <br>
+                - 애견을 동반하여 입실하실 수 없습니다.<br>
+                - 최대인원(영ㆍ유아 포함)을 초과한 경우 입실이 제한됩니다. 또는 초과인원에 대해 위약 할증요금으로 1인당 적용되는 추가요금의 3배 위약금 이 부과됩니다.<br>
+                - 원룸 객실에서 가족 등 보호자 동반 이외에 미성년자 및 성인 3인 이상의 혼숙은 예약할 수 없습니다.<br>
+                - 인원 추가는 최대인원 범위 내에서 1인당 1~2만원의 요금이 추가됩니다.(최대인원 초과시 24개월 미만 영ㆍ유아 포함)<br>
+                - 집기비품ㆍ시설이 파손된 경우 주인에게 알려주시기 바랍니다.<br>
+                - 퇴실하실 때에는 방Key 및 대여물품을 반납해 주시고, 퇴실 점검을 받으신 후 퇴실 하실 수 있습니다.<br><br>
+            </div>
+            <div id=body_blank></div>
+            <div class=reservation_head>
+                <img src="img/reservation_4.png">
+            </div>
+            <div id=reservation_refund>
+                올바른 예약문화의 정착을 위하여 불가피한 조치이오니 양해 부탁드립니다.<br>
+                보호자 동반 없는 미성년자 예약 발견 시 환불 없이 예약 취소됩니다.<br>
+                예약일 변경시 발생하는 수수료도 취소 수수료가 동일하게 적용되오니 예약시 신중하게 생각하시고 결정해 주시기 바랍니다.<br>
+                이용일 7일전까지만 예약날짜 및 객실 변경이 가능하며, 변경 시 10%의 수수료가 적용 됩니다.<br>
+                (※ 이용일 1일~6일내에 변경은 불가합니다)<br><br>
+                
+                - 기본 환불 수수료<br><br>
+
+                <table border="1" cellspacing=0>
+                    <tr>  <td class=tb_con>이용당일</td> <td class=tb_con>이용 1일전</td> <td class=tb_con>이용 2일전</td> <td class=tb_con>이용 3일전</td> <td class=tb_con>이용 4일전</td> <td class=tb_con>이용 5일전</td> <td class=tb_con>이용 6일전</td> <td class=tb_con>이용 7일전</td> <td class=tb_con>이용 8일전</td> <td class=tb_con>이용 9일전</td> <td class=tb_con>이용 10일전</td>  </tr>
+                    <tr>  <td class=tb_con>환불불가</td> <td class=tb_con>환불불가</td> <td class=tb_con>40% 환불</td> <td class=tb_con>50% 환불</td> <td class=tb_con>60% 환불</td> <td class=tb_con>70% 환불</td> <td class=tb_con>80% 환불</td> <td class=tb_con>90% 환불</td> <td class=tb_con>90% 환불</td> <td class=tb_con>90% 환불</td> <td class=tb_con>90% 환불</td>  </tr>
+                </table>
+            </div>
+        </div>
+        <div id=body_blank></div>
+        
     </div>
     <div id=footer_wrap>
         <div id=footer>
@@ -90,10 +286,4 @@
                 </ul>
             </div>
             <div id=footer_logo>
-                <a href=#><img src=img/fo_logo.png></a>
-            </div>
-        </div>
-    </div>
-</body>
-    
-</html>
+                <a href=#><img src=img/fo_logo.png> </a> </div> </div> </div> </body> </html>

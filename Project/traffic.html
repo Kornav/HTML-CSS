@@ -6,7 +6,19 @@
     <title>index</title>
     <link href="css/header.css" rel="stylesheet" type="text/css">
     <link href="css/base_body.css" rel="stylesheet" type="text/css">
+    <link href="css/traffic.css" rel="stylesheet" type="text/css">
     <link href="css/footer.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.mov').click(function(){  // mov 클래스가 설정된 부분을 클릭하면 href에 적은 값만큼 세로로 스크롤 시킨다.
+                var ss = $(this).attr("href");
+                $('html, body').animate({scrollTop:ss});
+                return false;
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -17,38 +29,134 @@
         <div id=logo>
             <table width="1200" height="150" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td width=400px align="left"><a href=#><img src="img/facebook.jpg"></a></td>
-                    <td width=400px rowspan=2 align="center"><a href=index.html><img src="img/Arena.png"></a></td>
-                    <td width=400px rowspan=2 align="right"><a href=#><img src="img/Reserve.png"></a></td>
+                    <td width=400px align="left"><a href=http://www.facebook.com/arenapension/ target="_blank"><img src="img/facebook.jpg"></a></td>
+                    <td width=400px rowspan=2 align="center"><a href=index.html><img src="img/arena.png"></a></td>
+                    <td width=400px rowspan=2 align="right"><a href=reservation.html><img src="img/reserve.png"></a></td>
                 </tr>
                 <tr>
-                    <td align="left"><a href=#><img src="img/instagram.jpg"></a></td>
+                    <td align="left"><a href=http://www.instagram.com/jhonhur/ target="_blank"><img src="img/instagram.jpg"></a></td>
                 </tr>
             </table>
         </div>
             </div>
         <div id=menu>
             <ul>
-                <li><a href="LandScape.html">LANDSCAPE</a></li>
+                <li><a href="landscape.html">LANDSCAPE</a></li>
                 <li><a href="rooms.html">ROOMS</a></li>
                 <li><a href="facilities.html">FACILITIES</a></li>
                 <li><a href="service.html">SERVICE</a></li>
                 <li><a href="travle.html">TRAVLE</a></li>
                 <li><a href="traffic.html">TARFFIC</a></li>
                 <li><a href="reservation.html">RESERVATION</a></li>
-                <li><a href="community.html">COMMUNITY</a></li>
             </ul>
         </div>
     </div>
     <div id=header_blank>
     </div>
     <div id=body_wrap>
-            <div id=body_blank></div>
-            <div id=body_header>
-                <img src="img/traffic_info.png">
+        <div id=body_blank></div>
+        <div id=body_header>
+            <img src="img/traffic_info.png">
+        </div>
+        <div id=body_blank></div>
+        <div id=body_header>
+            <div id=body_menu>
+                <ul>
+                    <a href=230 class=mov><li>승용차안내</li></a>
+                    <a href=1000 class=mov><li>대중교통안내</li></a>
+                    <a href=1630 class=mov><li>펜션위치정보</li></a>
+                </ul>
             </div>
-            <div id=body_blank></div>
+        </div>
+        <div id=body_con>
+        <div class=body_item>
+            <div class=body_litem><img src=img/traffic_1.png></div>
+            <div class=body_ritem>
+                    <span class=my_bold>1. 서울 - 춘천 고속도로 이용(강일IC에서부터 45분소요)</span><br><br>
+
+                    <span class=my_bold>[강일IC ▶ 남춘천IC 이용] :</span> 56km(30분) 통행료 \ 5,400원<br>
+                    강일IC 출발 → 강촌IC로 나와 우회전 → 8Km 주행 → 팔봉산|비발디파크”방면 우회전 → 광판중학교를 지나 (춘천|홍천 경계지점)“홍천|부사원 방면”좌회전 → 3.5km 주행, 고개 넘자마자 “노일강변길”로 우회전 → 3.5km 주행 → 노일강변길 왼쪽 북노일교 건너 1km 주행(좌측에 ‘소리마당’ 보이면 감속) 우측 아레나 간판 보고 좌측 산 쪽으로 조금 올라오시면 아레나 펜션입니다.<br><br><br><br>
+
+
+
+
+                    ※ 강촌IC에서 아레나펜션까지 17.5Km(20분) 거리입니다<br><br>
+
+                    ※ 우천 시, 대설 시에는 남춘천IC를 이용하세요.)<br><br><br><br>
+
+
+
+                    <span class=my_bold>[강일IC ▶ 강촌IC 이용] :</span> 47km(25분) 통행료 \ 4,500원<br>
+                    강일IC 출발 → 강촌IC로 나와 우회전 → 8Km 주행 → 팔봉산|비발디파크”방면 우회전 → 광판중학교를 지나 (춘천|홍천 경계지점)“홍천|부사원 방면”좌회전 → 3.5km 주행, 고개 넘자마자 “노일강변길”로 우회전 → 3.5km 주행 → 노일강변길 왼쪽 북노일교 건너 1km 주행(좌측에 ‘소리마당’ 보이면 감속) 우측 아레나 간판 보고 좌측 산 쪽으로 조금 올라오시면 아레나 펜션입니다.<br><br><br><br>
+
+
+
+                    ※ 강촌IC에서 아레나펜션까지 17.5Km(20분) 거리입니다<br><br>
+
+                    ※ 우천 시, 대설 시에는 남춘천IC를 이용하세요.)<br><br><br>
+
+
+                    <span class=my_bold>2 . 국도 이용 (잠실 출발시 1시간 30분소요)</span><br>
+                    올림픽대로 → 미사리 → 팔당대교→양평(6번국도)방면 24km주행 → 오빈교차로에서 홍천(44번국도)방면 좌회전 21.3km주행 → 단월교차로 조금 지나 ‘서면|비발디파크’방면 우측방향 8.9km주행(단월 명성터널 통과) → 백양치길 ‘비발디파크|춘천|가평’ 방면으로 좌회전 1.8km 주행 → 대명비발디파크 방향 우측으로 8km 주행(비발디파크 스키장 콘도 지나 오션월드를 우측에 끼고 ‘춘천|팔봉산’ 방면으로 내려옴) → 홍천강변 방향 팔봉교회 50m 지나 오도치길로 우회전(A 노일강변펜션타운 입구 간판!!!) 300m 직진 → 농로 길로 좌회전(B 노일강변펜션타운 입구 간판!!!) 1km 주행 → 홍천강 다리(잠수교) 건너 우회전(C 노일강변펜션타운 입구 간판!!!) 1km 주행 → 삼거리(시멘트포장 끝지점) 노일강변길로 우회전(D 노일강변펜션타운 입구 간판!!!) → 북노일교 건너 1km 주행 → (좌측에 ‘소리마당’ 보이면 감속) 아레나 간판 보고좌측 산 쪽으로 조금 올라오시면 아레나 펜션입니다.<br>
+            </div>
+        </div>
+        <div class=con_blank>
+            <img src=img/traffic_blank.png>
+        </div>
+        <div class=body_item>
+                <div class=body_litem><img src=img/traffic_2.png></div>
+                <div class=body_ritem>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <span class=my_bold>1. 비발디파크(오션월드) 셔틀버스</span><br>
+                    * 셔틀버스 예매 및 이용 : 비발디파크참조<br>
+                    - 대명투어(☎02-2222-7474)에 문의.(이용일 전날 오후5시까지 예매하세요.)<br>
+                    - 성수기, 비수기에 따라 셔틀버스 운행시간 및 출발지가 상이 합니다. 미리 확인 하세요.<br>
+                    ※ 무료 셔틀버스가 운행되기도 합니다.<br><br>
+
+                    <span class=my_bold>2 . 동서울터미널(강변역) ~ 비발디파크행 금강고속 시외버스</span><br>
+                    - 동서울(출발) → 비발디파크 : 08:00, 09:05, 13:20(양평경유), 15:35<br>
+                    - 소요시간 : 1시간20분<br>
+                    ※ 문의 : 금강고속 동서울영업소 : 02) 453-2855<br>
+                    * 비발디파크 → 동서울 출발 시간 : 10:30, 13:00, 16:00, 18:00<br><br>
+                    
+                    <span class=my_bold>3 . 상봉터미널(상봉역, 망우역) → 비발디파크 금강고속 시외버스</span><br>
+                    - 상봉터미널(구리 : 돌다리 경유) : 07:00(07:10), 14:00(14:10)<br>
+                    - 소요시간 : 1시간25분<br>                    
+                    ※ 문의 : 금강고속 상봉영업소 : 02) 495-5858<br>
+                    * 비발디파크 → 상봉(구리) 출발 시간 : 11:30, 19:00<br><br>
+                    
+                    ​<span class=my_bold>4. 춘천시외버스터미널 로 오실 경우</span><br>
+                    - 두미리행(1번, 2번, 3번) 시내버스를 타고 어유포3거리에서 하차 후 펜션으로 전화하여 픽업 서비스 이용<br>
+                    - 아래 시간은 후평동 기점 출발시간이며, 해당 정류장까지 20여분 정도 소요 됨.<br>
+                    @ 1번 : 남춘천역 건너편 버스정류장(14:45분, 20:05분)<br>
+                    @ 2번 : 남부시장 앞 버스정류장(12:30분, 15:45분, 17:45분)<br>
+                    @ 3번 : 시외버스터미널(이마트)아래편 새마을금고연합회 앞 버스정류장(13:45분)<br>
+                    @ 비발디파크행(현대교통) : 시외버스터미널(이마트) 건너편 CU마트 앞<br><br>
+                    
+                    <span class=my_bold>5. 홍천시외버스터미널 로 오실 경우</span><br>
+                    - 북노일행(12:00시_OG펜션 앞 하차), 남노일행(14:30분_북노일 종점 하차), 반곡행(15:30분_원소3거리 하차), 비발디파크행(14:00시_종점 하차) 버스를 타고 펜션으로 전화하여 픽업 서비스 이용<br><br><br><br>
+                    
+                    
+                    
+                    
+                </div>
+        </div>
+        <div class=con_blank>
+                <img src=img/traffic_blank.png>
+        </div>
+        <div class=body_item>
+                <div class=body_litem><img src=img/traffic_3.png></div>
+                <div class=body_ritem>
+                    <img src=img/traffic_map.png>
+                </div>
+        </div>
     </div>
+    <div id=body_blank></div>
+     </div>
     <div id=footer_wrap>
         <div id=footer>
             <div id=address>
